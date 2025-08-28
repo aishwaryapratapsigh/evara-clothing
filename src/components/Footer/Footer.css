@@ -1,0 +1,62 @@
+.footer ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b4b4b;
+  cursor: pointer;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.heading-col {
+  color: #770015;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer ul li:hover {
+  color: maroon;
+}
+
+.social-icon {
+  font-size: 35px;
+  color: white;
+  background-color: #770015;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  margin-bottom: 26px;
+}
+.icon-bg1{
+background-color: #1077F0 ;
+}
+.icon-bg2{
+background-color: #229AEF ;
+}
+.icon-bg3 {
+  background: linear-gradient( to right top, #ffdb70, #ffbc5f, #ff9b5c,#ff7963, #ff5771, #f94380,#ee3392,#dc2aa5,#c533b5,#942dae, #6d35b1,#2f2d8f);
+  }
+
+.icon-bg4{
+background-color: #2B67B3 ;
+}
+.icon-bg5{
+background-color: #E60022 ;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease,
+}
+
+@media (max-width:760px) {
+  .social-icon {
+    margin-bottom: 0px;
+  }
+}
+
+.social-icon:hover {
+  scale: 2px;
+}
